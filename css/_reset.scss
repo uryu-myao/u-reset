@@ -204,7 +204,7 @@ audio:not([controls]) {
 }
 
 /**
- * Remove the border on images inside links in IE 10-.
+ * Remove the border on assets inside links in IE 10-.
  */
 
 img {
@@ -437,44 +437,21 @@ template {
 }
 
 
+
+
 /*  =============================================
 ****               URYU EDITED               ****
 ================================================= */
 
 
-/* img alt alert
-   ========================================================================== */
 
-/**
- * notice lost alt.
- */
-
-/* img[alt=""],
-img:not([alt]) {
-  border: 1px dashed #c00;
-} */
-
-
-/* Reset for font-size: 62.5%
-   ========================================================================== */
-
-/**
- * make 1em = 10px
- */
-
-html,
-body,
-h1, h2, h3, h4, h5, h6 { font-size: 62.5%;}
-
-
-/* Fix figure dl
+/* Reset <figure> and <dl> margin
    ========================================================================== */
 
 figure, dl { margin: 0;}
 
 
-
-/* Remove selector margin
+/* Reset list tag style
    ========================================================================== */
 
 ul, ol {
@@ -485,24 +462,22 @@ ul, ol {
 li { list-style: none;}
 
 
-
-/* No underbar in a tag
+/* Reset underbar in <a> tag
    ========================================================================== */
 
 a { text-decoration: none;}
 
 
-
-/* h1~6 dd dt
+/* Reset <h1~6> <dd> <dt> <li> styles
    ========================================================================== */
 
-h1, h2, h3, h4, h5, h6, dd, dt, p {
+h1, h2, h3, h4, h5, h6, dd, dt, li {
   margin: 0;
   line-height: 1;
 }
 
 
-/* Remove input & textarea & select
+/* Reset <input> & <textarea> & <select> styles
    ========================================================================== */
 
 label, input, textarea {
@@ -511,67 +486,35 @@ label, input, textarea {
   padding: 0;
   list-style: none;
 }
-input:focus, textarea:focus ,select:focus { outline: none;}
+
+button:focus, input:focus, textarea:focus ,select:focus { outline: none;}
 
 
-/* Chrome:オートコンプリート使用後の背景色を変更する
+/* Add font optimization
    ========================================================================== */
 
-input:-webkit-autofill {
-  box-shadow: 0 0 0 1000px skyblue inset;
-}
-
-
-/* Placeholder Style
-   ========================================================================== */
-
-input::placeholder               { color: var(--phGrey); transition: all .1s ease-in-out;}
-input::-webkit-input-placeholder { color: var(--phGrey); transition: all .1s ease-in-out;}
-input::-moz-placeholder          { color: var(--phGrey); transition: all .1s ease-in-out;}
-input::-ms-placeholder           { color: var(--phGrey); transition: all .1s ease-in-out;}
-
-textarea::placeholder               { color: var(--phGrey); transition: all .1s ease-in-out;}
-textarea::-webkit-input-placeholder { color: var(--phGrey); transition: all .1s ease-in-out;}
-textarea::-moz-placeholder          { color: var(--phGrey); transition: all .1s ease-in-out;}
-textarea::-ms-placeholder           { color: var(--phGrey); transition: all .1s ease-in-out;}
-
-input:focus::-webkit-input-placeholder { color:transparent; }
-input:focus::-ms-placeholder           { color:transparent; }
-input:focus::-moz-placeholder          { color:transparent; }
-
-textarea:focus::-webkit-input-placeholder { color:transparent; }
-textarea:focus::-ms-placeholder           { color:transparent; }
-textarea:focus::-moz-placeholder          { color:transparent; }
-
-
-/* No draging in Textarea
-   ========================================================================== */
-
-textarea {
-  resize: none;
-}
-
-
-/* Webkit font smoothing
-   ========================================================================== */
-
-p {
+body {
   -webkit-font-smoothing: antialiased;
-}
-
-
-/* タイトル オブティカル
-   ========================================================================== */
-
-h1, h2, h3, h4, h5, h6, p, li {
+  -moz-osx-font-smoothing: grayscale;
   font-feature-settings : "palt" 1;
 }
-
 
 
 /* Remove iframe border
    ========================================================================== */
 
 iframe {
+  border: 0;
+}
+
+
+/* Remove botton border style
+   ========================================================================== */
+
+input[type="button" i],
+input[type="submit" i],
+input[type="reset" i],
+input[type="file" i]::-webkit-file-upload-button,
+button {
   border: 0;
 }
