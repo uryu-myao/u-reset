@@ -1,6 +1,6 @@
 {
   "name": "u-reset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uryu-myao/uryu-reset.git"
+    "url": "git+https://github.com/uryu-myao/u-reset.git"
   },
   "author": "uryu myao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uryu-myao/uryu-reset/issues"
+    "url": "https://github.com/uryu-myao/u-reset/issues"
   },
-  "homepage": "https://github.com/uryu-myao/uryu-reset#readme"
+  "homepage": "https://github.com/uryu-myao/u-reset#readme"
 }

@@ -7,6 +7,8 @@
 edited the original [Normalize.css](http://necolas.github.io/normalize.css/)
 
 #### NPM  
-`npm install --save u-reset`
+```sh
+npm install --save u-reset
+```
 
 change the `.scss` to `.css` if necessary.
