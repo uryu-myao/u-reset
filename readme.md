@@ -11,4 +11,4 @@ edited the original [Normalize.css](http://necolas.github.io/normalize.css/)
 npm install --save u-reset
 ```
 
-change the `.scss` to `.css` if necessary.
+Change the `.scss` to `.css` if necessary.

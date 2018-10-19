@@ -495,9 +495,7 @@ body {
 /* Remove iframe border
    ========================================================================== */
 
-iframe {
-  border: 0;
-}
+iframe { border: 0;}
 
 /* Reset button style
    ========================================================================== */
@@ -526,6 +524,4 @@ table {
 	border-spacing: 0;
 }
 
-td,th {
-	padding: 0;
-}
+td,th { padding: 0;}
