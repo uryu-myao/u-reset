@@ -1,3 +1,9 @@
+/*  =============================================
+ *    necolas / normalize.css
+ *    https://github.com/necolas/normalize.css/
+ *    v8.0.0                            ▼   ****
+ *  ============================================= */
+
 /* Document
    ========================================================================== */
 
@@ -8,9 +14,12 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -58,7 +67,8 @@ h1 {
 
 figcaption,
 figure,
-main { /* 1 */
+main {
+  /* 1 */
   display: block;
 }
 
@@ -68,9 +78,12 @@ main { /* 1 */
  */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -79,8 +92,10 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -92,8 +107,10 @@ pre {
  */
 
 a {
-  background-color: transparent; /* 1 */
-  -webkit-text-decoration-skip: objects; /* 2 */
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
 }
 
 /**
@@ -102,9 +119,12 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -133,8 +153,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -233,10 +255,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -245,7 +271,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -255,7 +282,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -266,10 +294,12 @@ select { /* 1 */
  */
 
 button,
-html [type="button"], /* 1 */
+html [type="button"],
+/* 1 */
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; /* 2 */
+  -webkit-appearance: button;
+  /* 2 */
 }
 
 /**
@@ -311,12 +341,18 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -325,8 +361,10 @@ legend {
  */
 
 progress {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
 }
 
 /**
@@ -344,8 +382,10 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -363,8 +403,10 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -382,8 +424,10 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -394,7 +438,8 @@ textarea {
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
 
-details, /* 1 */
+details,
+/* 1 */
 menu {
   display: block;
 }
@@ -446,27 +491,44 @@ template {
 /* Reset <figure> and <dl> margin
    ========================================================================== */
 
-figure, dl { margin: 0;}
+figure,
+dl {
+  margin: 0;
+}
 
 /* Reset list tag style
    ========================================================================== */
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-li { list-style: none;}
+
+li {
+  list-style: none;
+}
 
 /* Reset underbar in <a> tag
    ========================================================================== */
 
-a { text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
 /* Reset <h1~6> <dd> <dt> <li> styles
    ========================================================================== */
 
-h1, h2, h3, h4, h5, h6, dd, dt, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dd,
+dt,
+li {
   margin: 0;
   line-height: 1;
 }
@@ -474,14 +536,21 @@ h1, h2, h3, h4, h5, h6, dd, dt, li {
 /* Reset <input> & <textarea> & <select> styles
    ========================================================================== */
 
-label, input, textarea {
+label,
+input,
+textarea {
   border: 0;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-button:focus, input:focus, textarea:focus ,select:focus { outline: none;}
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
 
 /* Add font optimization
    ========================================================================== */
@@ -489,21 +558,23 @@ button:focus, input:focus, textarea:focus ,select:focus { outline: none;}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-feature-settings : "palt" 1;
+  font-feature-settings: "palt"1;
 }
 
 /* Remove iframe border
    ========================================================================== */
 
-iframe { border: 0;}
+iframe {
+  border: 0;
+}
 
 /* Reset button style
    ========================================================================== */
 
-input[type="button" i],
-input[type="submit" i],
-input[type="reset" i],
-input[type="file" i]::-webkit-file-upload-button,
+input[type="button"i],
+input[type="submit"i],
+input[type="reset"i],
+input[type="file"i]::-webkit-file-upload-button,
 button {
   border: 0;
 }
@@ -520,8 +591,23 @@ button {
    ========================================================================== */
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-td,th { padding: 0;}
+td,
+th {
+  padding: 0;
+}
+
+/* Remove clicking foucus blue border
+   ========================================================================== */
+div:focus,
+a:focus,
+img:focus,
+span:focus,
+li:focus,
+picture:focus,
+figure:focus {
+  outline: none;
+}
