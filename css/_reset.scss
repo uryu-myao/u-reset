@@ -428,7 +428,7 @@ body {
 }
 
 
-/* 
+/* Smooth lettering 
    ========================================================================== */
 
 body {
@@ -441,14 +441,14 @@ body {
 }
 
 
-/* Remove iframe border
+/* Remove `iframe` element border in all browsers.
    ========================================================================== */
 
 iframe {
   border: 0;
 }
 
-/* Reset button style
+/* Remove `input` and `button` element border in all browsers.
    ========================================================================== */
 
 input[type="button"i],
