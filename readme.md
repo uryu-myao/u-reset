@@ -1,5 +1,5 @@
 ## u-reset
-
+[![npm version](https://img.shields.io/npm/v/u-reset.svg?style=flat)](https://www.npmjs.com/package/u-reset)
 
 > A design-focused CSS resets.   
 > Get rid of annoying browsers' default styles before starting design.
