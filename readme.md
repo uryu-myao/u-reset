@@ -1,8 +1,7 @@
 ## u-reset
 
 
-> A design-focused CSS resets.   
-> Get rid of annoying browsers' default styles before starting design.
+> An UI design-focused CSS resets.
 
 edited the original [Normalize.css](http://necolas.github.io/normalize.css/)
 
