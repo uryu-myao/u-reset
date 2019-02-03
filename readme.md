@@ -1,5 +1,5 @@
 ## u-reset
-
+[![npm version](https://img.shields.io/npm/v/u-reset.svg?style=flat)](https://www.npmjs.com/package/u-reset)
 
 > An UI design-focused CSS resets.
 
