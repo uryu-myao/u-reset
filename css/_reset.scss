@@ -446,13 +446,6 @@ textarea {
   list-style: none;
 }
 
-button:focus,
-input:focus,
-textarea:focus,
-select:focus {
-  outline: none;
-}
-
 
 /* Add the auto kerning to OTF including old Kanji charactors in all browsers.
    ========================================================================== */
@@ -506,7 +499,7 @@ button {
 }
 
 
-/* Remove margin between table units
+/* Remove margin between table units in all browsers
    ========================================================================== */
 
 table {
@@ -520,14 +513,28 @@ th {
 }
 
 
-/* Remove clicking foucus blue border
+/* Reset clicking foucus blue border in all browsers
    ========================================================================== */
+
 div:focus,
 a:focus,
 img:focus,
 span:focus,
 li:focus,
 picture:focus,
-figure:focus {
-  outline: none;
+figure:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 1px solid rgba(0, 0, 0, .1);
 }
+
+
+/* Switch to border-box for box-sizing
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
