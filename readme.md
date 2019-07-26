@@ -4,15 +4,39 @@
 A visual design focused CSS resets.  
 Reset default visual styling, helping designer and developer started custom css faster.
 
+## Install
 
-#### npm install
-```sh
+#### with [Yarn](https://yarnpkg.com):
+```
+yarn add u-reset
+```
+
+#### with [NPM](http://npmjs.com):
+```
 npm install --save u-reset
 ```
 
-Change the `.scss` to `.css` if necessary.
+## Usage
 
+#### Via HTML
+```
+<link rel="stylesheet" href="/path/to/u-reset/reset.css" />
+```
 
+#### Via css
+```
+@import '/path/to/u-reset/reset.css';
+```
+
+#### Via Sass
+```
+@import '/path/to/u-reset/sass/reset';
+```
+
+#### Via less
+```
+@import '/path/to/u-reset/less/reset';
+```
 
 ## Reference
 

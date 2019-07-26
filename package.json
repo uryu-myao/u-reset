@@ -1,8 +1,8 @@
 {
   "name": "u-reset",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A visual design focused CSS resets.Reset default visual styling, helping designer and developer started custom css faster.",
-  "main": "index.js",
+  "main": "reset.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/uryu-myao/u-reset/issues"
   },
-  "homepage": "https://github.com/uryu-myao/u-reset#readme"
+  "homepage": "https://github.com/uryu-myao/u-reset#readme",
+  "files": [
+    "reset.css",
+    "sass",
+    "less"
+  ]
 }
