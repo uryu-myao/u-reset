@@ -450,13 +450,8 @@ body {
    ========================================================================== */
 
 body {
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: unset;
-
-  /* @media only screen and(-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  } */
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Remove `iframe` element border in all browsers.
@@ -524,4 +519,35 @@ select:focus {
 ::before,
 ::after {
   box-sizing: border-box;
+}
+
+/* Make title text wrap balance
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/* Make text shorter than container width when it is too long.
+   ========================================================================== */
+p,
+li,
+figcaption {
+  text-wrap: pretty;
+  max-width: 70ch;
+}
+
+/* Set up container queries based on container width for responsive layout.
+   ========================================================================== */
+
+body > :is(header, footer),
+main,
+section,
+article {
+  container-type: inline-size;
 }
